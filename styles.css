@@ -18,13 +18,21 @@ body {
   justify-content: space-between;
   height: 30vh;
 }
+
 .bottomSection {
   height: 60vh;
+  margin-top: 4rem;
 }
 
 .bottomLinement {
   margin: auto;
   width: 50%;
+}
+
+@media (max-width: 768px) {
+  .bottomLinement {
+    width: 90%;
+  }
 }
 
 .wordBox {
